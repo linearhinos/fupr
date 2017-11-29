@@ -9,7 +9,7 @@ title: 基于模式识别的预估方法
 
 # {{ page.title }}
 ## 目录结构
-- 线性回归模型
+- [线性回归模型](https://linearhinos.github.io/fupr/2017/11/25/linear-regression.html)
 - sigmoid函数与LR模型
 - 大规模数据时的采样方案
 - 当代工匠:特征挖掘
