@@ -9,6 +9,7 @@ title: 基于模式识别的预估方法
 
 # {{ page.title }}
 ## 目录结构
+- 线性回归模型
 - sigmoid函数与LR模型
 - 大规模数据时的采样方案
 - 当代工匠:特征挖掘
@@ -21,11 +22,11 @@ title: 基于模式识别的预估方法
     在线：根据CTR，给出p=5%所需的样本量
 - 其他优化：多样化C值
 
-## 数据基础
-- 记号表示
-- 线性统计模型(堪称古典)
+## 数学基础
+- [记号表示](https://linearhinos.github.io/fupr/2017/11/23/notation.html)
 - 向量/矩阵求导
 - 凸优化算法介绍
+- 统计理论
 
 
 [comment]: <> ({% for post in site.posts %})
