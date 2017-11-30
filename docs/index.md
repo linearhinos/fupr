@@ -9,7 +9,7 @@ title: 基于模式识别的预估方法
 
 # {{ page.title }}
 ## 目录结构
-- [线性回归模型](https://linearhinos.github.io/fupr/2017/11/25/linear-regression.html)
+- [线性回归模型]({{ site.baseurl }}{% post_url 2017-11-25-linear-regression %})
 - sigmoid函数与LR模型
 - 大规模数据时的采样方案
 - 当代工匠:特征挖掘
@@ -23,7 +23,7 @@ title: 基于模式识别的预估方法
 - 其他优化：多样化C值
 
 ## 数学基础
-- [记号表示](https://linearhinos.github.io/fupr/2017/11/23/notation.html)
+- [记号表示]({{ site.baseurl }}{% post_url 2017-11-23-notation %})
 - 向量/矩阵求导
 - 凸优化算法介绍
 - 统计理论
