@@ -36,6 +36,7 @@ $$w_1 > 0$$时成为正相关;$$w_1 < 0$$时成为负相关;
 - $$x_5$$本区域的GDP
 > 结合上面的影响因素, 可以对全国房价建模如下
 $$ y = w_0 + x_1*w_1 + x_2*w_2 + x_3*w_3 + x_4*w_4 + x_5*w_5 + \varepsilon $$
+内在规律 + 随机扰动
 
 ## 线性模型的基本要素
 1. y就是我们感兴趣的最终目标变量target variable
@@ -48,10 +49,23 @@ $$ y = w_0 + x_1*w_1 + x_2*w_2 + x_3*w_3 + x_4*w_4 + x_5*w_5 + \varepsilon $$
 
 
 ## 损失函数
+首先我们定义误差:
+    真实值是$$x_a$$; 观测值是$$x_p$$
+    $$ \epsilon = x_p - x_a$$
+损失函数关乎训练目标, 并进而影响具体的求解算法; 这里仅说最常见的两种损失函数:
+    1. (MAE: Mean Absolute Error)
+    2. 均方误差(MSE: Mean Square Error)
+    $$ MSE = (\epsilon)^2 $$
+    $$ = (\epsilon)^2 $$
 
 ## 求解
 $$Loss(w|x,y) = (\mathbf{Y} - \mathbf{X}\mathbf{w})^T(\mathbf{Y} - \mathbf{X}\mathbf{w})$$
 展开就是$$ Loss(w|x,y) = \frac{1}{n}\sigma_{1}^{n} (y_i - \mathbf{x}_i^T*\mathbf{w})^2$$
+
+求导，取逆即可得到解析解
+他的性质:
+1. 无偏性
+2. 
 
 
 ---

@@ -11,8 +11,10 @@ title: 基于模式识别的预估方法
 ## 目录结构
 - [线性回归模型]({{ site.baseurl }}{% post_url 2017-11-25-linear-regression %})
 - sigmoid函数与LR模型
-- 大规模数据时的采样方案
+- 大规模数据场景时的采样方案
 - 当代工匠:特征挖掘
+    - 传统方法与常用指标
+    - 使用DecisionTree的系统化方法
 - 时效性问题：
     - OWLQN训练原理
     - SOM算法原理 网盟的inc-batch方案
