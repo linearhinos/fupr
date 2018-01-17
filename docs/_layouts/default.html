@@ -1,15 +1,20 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-        <title>{{ page.title }}</title>
-        <script type="text/javascript" async
-              src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js?config=TeX-MML-AM_CHTML">
-          </script>
-    </head>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
 
-    <body>
+  {% include head.html %}
+
+  <body>
+
+    {% include header.html %}
+
+    <main class="page-content" aria-label="Content">
+      <div class="wrapper">
         {{ content }}
-    PS: 目前先码文章, 朴素排版; 有必要时再美化脸面
-    </body>
+      </div>
+    </main>
+
+    {% include footer.html %}
+
+  </body>
+
 </html>
